@@ -1,0 +1,13 @@
+{
+  "name": "vue-sandbox",
+  "version": "1.0.0",
+  "description": "vue.js sandbox",
+  "main": "index.js",
+  "author": "mike dinh",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "json-server": "^0.14.0",
+    "prettier": "^1.13.5"
+  }
+}
