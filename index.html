@@ -20,7 +20,7 @@
         </ul>
         <h1>Total inventory: {{ totalProducts }}</h1>
     </div>
-    <script src="./public/js/vue@2.5.16.js"></script>
+    <script src="/public/js/vue@2.5.16.js"></script>
     <script>
         const app = new Vue({
           el: '#app',
@@ -36,7 +36,6 @@
           },
           created() {
             fetch('https://api.myjson.com/bins/74l63')
-            //fetch('https://e4bf8c49.ngrok.io/products')
               .then(response => response.json())
               .then(json => {
                 this.products = json.products
